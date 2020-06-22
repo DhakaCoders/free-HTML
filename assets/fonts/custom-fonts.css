@@ -1,24 +1,137 @@
 @font-face {
-    font-family: 'AracneUltraCondensedLight';
-    src: url('AracneUltraCondensedLight/AracneUltraCondensedLight.eot');
-    src: url('AracneUltraCondensedLight/AracneUltraCondensedLight.eot?#iefix') format('embedded-opentype'),
-        url('AracneUltraCondensedLight/AracneUltraCondensedLight.woff2') format('woff2'),
-        url('AracneUltraCondensedLight/AracneUltraCondensedLight.woff') format('woff'),
-        url('AracneUltraCondensedLight/AracneUltraCondensedLight.ttf') format('truetype'),
-        url('AracneUltraCondensedLight/AracneUltraCondensedLight.svg#AracneUltraCondensedLight') format('svg');
-    font-weight: 300;
+    font-family: 'PFHighwayGothicComp-Regular';
+    src: url('PFHighwayGothicComp-Regular/PFHighwayGothicComp-Regular.eot');
+    src: url('PFHighwayGothicComp-Regular/PFHighwayGothicComp-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PFHighwayGothicComp-Regular/PFHighwayGothicComp-Regular.woff2') format('woff2'),
+        url('PFHighwayGothicComp-Regular/PFHighwayGothicComp-Regular.woff') format('woff'),
+        url('PFHighwayGothicComp-Regular/PFHighwayGothicComp-Regular.ttf') format('truetype'),
+        url('PFHighwayGothicComp-Regular/PFHighwayGothicComp-Regular.svg#PFHighwayGothicComp-Regular') format('svg');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'HelveticaNeueCyr-Medium';
-    src: url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
-    url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.otf')  format('opentype'),
-    url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff') format('woff'),
-    url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.ttf')  format('truetype'),
-    url('HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium') format('svg');
+    font-family: 'PFHighwayGothicCompLight-Regular';
+    src: url('PFHighwayGothicCompLight-Regular/PFHighwayGothicCompLight-Regular.eot');
+    src: url('PFHighwayGothicCompLight-Regular/PFHighwayGothicCompLight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PFHighwayGothicCompLight-Regular/PFHighwayGothicCompLight-Regular.woff2') format('woff2'),
+        url('PFHighwayGothicCompLight-Regular/PFHighwayGothicCompLight-Regular.woff') format('woff'),
+        url('PFHighwayGothicCompLight-Regular/PFHighwayGothicCompLight-Regular.ttf') format('truetype'),
+        url('PFHighwayGothicCompLight-Regular/PFHighwayGothicCompLight-Regular.svg#PFHighwayGothicCompLight-Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'PFHighwayGothicCompThin-Italic';
+    src: url('PFHighwayGothicCompThin-Italic/PFHighwayGothicCompThin-Italic.eot');
+    src: url('PFHighwayGothicCompThin-Italic/PFHighwayGothicCompThin-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PFHighwayGothicCompThin-Italic/PFHighwayGothicCompThin-Italic.woff2') format('woff2'),
+        url('PFHighwayGothicCompThin-Italic/PFHighwayGothicCompThin-Italic.woff') format('woff'),
+        url('PFHighwayGothicCompThin-Italic/PFHighwayGothicCompThin-Italic.ttf') format('truetype'),
+        url('PFHighwayGothicCompThin-Italic/PFHighwayGothicCompThin-Italic.svg#PFHighwayGothicCompThin-Italic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'PFHighwayGothicCompThin-Regular';
+    src: url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.eot');
+    src: url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.woff2') format('woff2'),
+        url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.woff') format('woff'),
+        url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.ttf') format('truetype'),
+        url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.svg#PFHighwayGothicCompThin-Regular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'TheSansAmstel-Black';
+    src: url('TheSansAmstel-Black/TheSansAmstel-Black.eot');
+    src: url('TheSansAmstel-Black/TheSansAmstel-Black.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-Black/TheSansAmstel-Black.woff2') format('woff2'),
+        url('TheSansAmstel-Black/TheSansAmstel-Black.woff') format('woff'),
+        url('TheSansAmstel-Black/TheSansAmstel-Black.ttf') format('truetype'),
+        url('TheSansAmstel-Black/TheSansAmstel-Black.svg#TheSansAmstel-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'TheSansAmstel-Bold';
+    src: url('TheSansAmstel-Bold/TheSansAmstel-Bold.eot');
+    src: url('TheSansAmstel-Bold/TheSansAmstel-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.woff2') format('woff2'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.woff') format('woff'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.ttf') format('truetype'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.svg#TheSansAmstel-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'TheSansAmstel-CondensedBold';
+    src: url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.eot');
+    src: url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.woff2') format('woff2'),
+        url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.woff') format('woff'),
+        url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.ttf') format('truetype'),
+        url('TheSansAmstel-CondensedBold/TheSansAmstel-CondensedBold.svg#TheSansAmstel-CondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TheSansAmstel-CondensedPlain';
+    src: url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.eot');
+    src: url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.woff2') format('woff2'),
+        url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.woff') format('woff'),
+        url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.ttf') format('truetype'),
+        url('TheSansAmstel-CondensedPlain/TheSansAmstel-CondensedPlain.svg#TheSansAmstel-CondensedPlain') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'TheSansAmstel-Plain';
+    src: url('TheSansAmstel-Plain/TheSansAmstel-Plain.eot');
+    src: url('TheSansAmstel-Plain/TheSansAmstel-Plain.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.woff2') format('woff2'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.woff') format('woff'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.ttf') format('truetype'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.svg#TheSansAmstel-Plain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'TheSansAmstel-SemiLight';
+    src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot');
+    src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.woff2') format('woff2'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.woff') format('woff'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.ttf') format('truetype'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.svg#TheSansAmstel-SemiLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 

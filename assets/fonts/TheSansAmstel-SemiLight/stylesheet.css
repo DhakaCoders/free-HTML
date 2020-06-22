@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'TheSansAmstel-SemiLight';
+    src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot');
+    src: url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.woff2') format('woff2'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.woff') format('woff'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.ttf') format('truetype'),
+        url('TheSansAmstel-SemiLight/TheSansAmstel-SemiLight.svg#TheSansAmstel-SemiLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

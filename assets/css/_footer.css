@@ -46,9 +46,16 @@
 .ftr-social ul li a{
 	color: #fff;
 }
-
+.ftr-social ul li a:hover,
+.ftr-menu ul li a:hover{
+	color: #20ade3;
+}
 
 /*modal*/
+.modal-open .modal{
+	padding-right: 15px!important;
+	padding-left: 15px!important;
+}
 .sm-modal{
 	padding: 50px;
 
@@ -78,15 +85,13 @@
 	color: #293377;
 }
 .fl-modal-des .modal-title{
-	font-weight: 700;
-	font-size: 26px;
+	font-size: 30px;
 	line-height: 36px;
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 	display: block;
+	font-family: 'PFHighwayGothicComp-Regular';
 }
 .fl-modal-des p{
-	font-size: 14px;
-	line-height: 20px;
 	margin-bottom: 25px;
 }
 .fl-modal-des a{
@@ -119,7 +124,7 @@
 	border-radius: 0;
 }
 .sm-modal-cntlr .modal-body{
-	padding: 65px 35px 60px;
+	padding: 55px 35px 30px;
 }
 .sm-modal-cntlr button.close{
 	position: absolute;
@@ -137,6 +142,82 @@
 	opacity: .9;
 }
 
+@media(max-width: 1499px){
+	
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.ftr-menu ul li a{
+		font-size: 30px;
+	}
+	.ftr-social label{
+		font-size: 32px;
+	}
+	.footer-wrp {
+	    padding: 33px 0 27px;
+	}
+}
+
+@media(max-width: 991px){
+	.ftr-menu ul li a {
+	    font-size: 26px;
+	}
+	.ftr-social label {
+	    font-size: 28px;
+	}
+	.ftr-social ul li{
+		font-size: 40px;
+	}
+}
+
+@media(max-width: 767px){
+	.ftr-menu {
+	    float: none;
+	    text-align: center;
+	    padding-bottom: 20px;
+	}
+	.ftr-social{
+	    display: flex;
+	    justify-content: center;
+	    float: none;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.ftr-social label,
+	.ftr-social ul{
+		display: inline-block;
+		vertical-align: baseline;
+	}
+	.ftr-menu ul li{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media(max-width: 575px){
+	.ftr-menu ul li {
+	    padding-left: 6px;
+	    padding-right: 6px;
+	}
+	.ftr-menu ul li a {
+	    font-size: 24px;
+	}
+	.ftr-social label {
+	    font-size: 26px;
+	}
+	.ftr-social ul li {
+	    font-size: 36px;
+	}
+}
+
 @media(max-width: 479px){
 	.sm-modal-cntlr .modal-body {
 	    padding: 60px 20px 50px;
@@ -144,4 +225,9 @@
 	.fl-modal-des .modal-title{
 		font-size: 25px;
 	}
+
+}
+
+@media(max-width: 359px){
+
 }

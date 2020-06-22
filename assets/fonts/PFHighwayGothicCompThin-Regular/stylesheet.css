@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'PFHighwayGothicCompThin-Regular';
+    src: url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.eot');
+    src: url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.woff2') format('woff2'),
+        url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.woff') format('woff'),
+        url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.ttf') format('truetype'),
+        url('PFHighwayGothicCompThin-Regular/PFHighwayGothicCompThin-Regular.svg#PFHighwayGothicCompThin-Regular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'TheSansAmstel-Bold';
+    src: url('TheSansAmstel-Bold/TheSansAmstel-Bold.eot');
+    src: url('TheSansAmstel-Bold/TheSansAmstel-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.woff2') format('woff2'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.woff') format('woff'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.ttf') format('truetype'),
+        url('TheSansAmstel-Bold/TheSansAmstel-Bold.svg#TheSansAmstel-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'TheSansAmstel-Plain';
+    src: url('TheSansAmstel-Plain/TheSansAmstel-Plain.eot');
+    src: url('TheSansAmstel-Plain/TheSansAmstel-Plain.eot?#iefix') format('embedded-opentype'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.woff2') format('woff2'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.woff') format('woff'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.ttf') format('truetype'),
+        url('TheSansAmstel-Plain/TheSansAmstel-Plain.svg#TheSansAmstel-Plain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
