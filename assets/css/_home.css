@@ -208,7 +208,7 @@
 
 }
 .value-set{
-	max-width: 120px;
+	max-width: 135px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -219,6 +219,7 @@
 	font-size: 33px;
 	text-transform: uppercase;
 	font-family: 'PFHighwayGothicComp-Regular';
+	word-break: break-word;
 }
 .fria-title{
 	padding: 13px 0 0 0;
