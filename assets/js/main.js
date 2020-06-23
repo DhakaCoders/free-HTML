@@ -18,4 +18,11 @@
   if($('.mHc5').length){
     $('.mHc5').matchHeight();
   };
+
+  $('.get-value').keyup(function(){
+    var takeValue = $(this).val(); 
+    $('.value-set').html('<h5>'+takeValue+'</h5');
+  });
+  
+
 })(jQuery);

@@ -11,6 +11,8 @@
 	z-index: 1;
 	display: flex;
 	justify-content: flex-end;
+	margin-left: auto;
+	margin-right: auto;
 }
 .mainBnrItem{
 	min-height: 1070px;
@@ -137,16 +139,33 @@
 	font-family: 'PFHighwayGothicComp-Regular';
 	position: relative;
 }
-.form-title span{
+.form-title input[type="text"]{
 	position: relative;
 	z-index: 2;
+	background: transparent;
+	color: #fff;
+	font-size: 48px;
+	font-family: 'PFHighwayGothicComp-Regular';
 }
+.form-title input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.form-title input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.fl-form-fi.form-title input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.form-title input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
 .form-title:after{
 	content: "";
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	bottom: 5px;
 	height: 10px;
 	background: #20ade3;
 	z-index: 1;
@@ -159,8 +178,49 @@
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: center;
+	position: relative;
 }
-.form-rgt-img-area strong{
+.form-rgt-img-area-con{
+	max-width: 333px;
+	width: 100%;
+	position: relative;
+}
+.form-rgt-img-area-con img{
+	width: 100%;
+}
+.form-rgt-img-area-des{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	top: 50px;
+}
+.form-rgt-img-area-des span{
+	display: block;
+	font-size: 26px;
+}
+.form-rgt-img-area-des strong {
+	font-weight: normal;
+    font-family: 'TheSansAmstel-CondensedPlain';
+    font-size: 17px;
+    line-height: 1;
+
+}
+.value-set{
+	max-width: 120px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.value-set h5{
+	margin-bottom:0;
+	font-size: 33px;
+	text-transform: uppercase;
+	font-family: 'PFHighwayGothicComp-Regular';
+}
+.fria-title{
 	padding: 13px 0 0 0;
 	text-transform: uppercase;
 	font-size: 39px;
@@ -256,6 +316,7 @@
 .form-social-col a.form-social-facebook:hover{
 	background: #344e8a;
 }
+
 .form-social-col a.form-social-instagram:hover{
 	background: #a4256d;
 }
@@ -640,6 +701,17 @@
 	.mainBnrItemDesInr h1 span {
 	    font-size: 50px;
 	}
+	.form-con-rgt{
+		padding-top: 40px;
+	}
+	.form-rgt-img-area{
+		margin-top: 0;
+	}
+	.form-rgt-img-area-con {
+	    position: relative;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
 }
 
 @media(max-width: 767px){
@@ -653,7 +725,7 @@
 	    font-size: 24px;
 	    line-height: 1.1;
 	}
-	.form-rgt-img-area strong{
+	.fria-title{
 		font-size: 35px;
 	}
 	.form-title{
@@ -748,6 +820,9 @@
 	}
 	.mainBnrItemDesInr h3 {
 	    font-size: 45px;
+	}
+	.value-set h5{
+		font-size: 30px;
 	}
 }
 
