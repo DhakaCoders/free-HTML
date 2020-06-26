@@ -24,5 +24,15 @@
     $('.value-set').html('<h5>'+takeValue+'</h5');
   });
   
+  $(".why-sec-grd-cntlr ul li").slice(0,4).show();
+  $("#seeMore").click(function(e){
+    e.preventDefault();
+    $(".why-sec-grd-cntlr ul li:hidden").slice(0,4).fadeIn("slow");
+    
+    if($(".why-sec-grd-cntlr ul li:hidden").length == 0){
+       $("#seeMore").fadeOut("slow");
+      }
+  });
+
 
 })(jQuery);

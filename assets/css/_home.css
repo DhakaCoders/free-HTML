@@ -551,6 +551,11 @@
 	background: transparent;
 }
 
+.why-sec-grd-cntlr ul li{
+	display: none;
+}
+
+
 @media(max-width: 1499px){
 	.pl-215 {
 	    padding-left: 115px;
