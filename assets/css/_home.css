@@ -587,7 +587,7 @@
 		font-size: 60px;
 	}
 	.why-sec-grd {
-	    height: 300px;
+	    height: 270px;
 	}
 	.why-sec-grd-des strong{
 		font-size: 28px;
@@ -652,6 +652,11 @@
 		font-size: 30px;
 	}
 }
+@media(max-width: 1023px){
+	.why-sec-grd {
+	    height: 250px;
+	}
+}
 
 @media(max-width: 991px){
 	.why-sec-hdr-title,
@@ -711,6 +716,9 @@
 	    position: relative;
 	    margin-left: auto;
 	    margin-right: auto;
+	}
+	.why-sec-grd {
+	    height: 270px;
 	}
 }
 
