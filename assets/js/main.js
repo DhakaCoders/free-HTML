@@ -58,5 +58,11 @@
         });
       }
     });*/
+    $('.acceess-submit-btn button').on('click', function(){
+      var inputVal = $('.acceess-form-fields input').val();
+      var ;
+      $('.page-acceess-con-cntlr').hide();
+    });
+
 
 })(jQuery);
