@@ -39,25 +39,9 @@
     
 
 
-    /*var t = $('.acceess-form-fields input').prop('required',true);
-    alert(t);
-    if( t == true){
-      $('.acceess-submit-btn button').on('click', function(){
-        $('.page-acceess-con-cntlr').hide();
-      });
-    }*//*else{
-      $(".alert-txt").append( "<p>Ημερομηνια γεννησης</p>" );
-    }*/
-    /*$('.access-year').keyup(function(){
-      //var inputFillUp = $('.acceess-form-fields input[name="acceess"]')[0].checked = true;
-      
-      var yearTakeValue = $(this).val();
-      if (yearTakeValue <= 2004){
-        $('.acceess-submit-btn button').on('click', function(){
-          $('.page-acceess-con-cntlr').hide();
-        });
-      }
-    });*/
+    
+
+    //$(".alert-txt").append( "<p>Ημερομηνια γεννησης</p>" );
     $('.acceess-submit-btn button').on('click', function(){
         var inputVal = $('.acceess-form-fields input').val();
         if (inputVal != 0){
