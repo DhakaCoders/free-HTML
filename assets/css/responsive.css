@@ -99,3 +99,54 @@
 @media(max-width: 359px){
 
 }
+
+
+
+/* horizontal responsive*/
+@media(max-height: 639px){
+	.page-acceess-logo img{
+		max-width: 150px;
+	}
+}
+
+@media(max-height: 575px){
+	.acceess-submit-btn button {
+	    width: 170px;
+	    height: 67px;
+	    font-size: 38px;
+	    padding: 17px 0 10px;
+	}
+	.page-acceess-logo img {
+	    max-width: 125px;
+	}
+	.born-date-form-body label, .acceess-form-fields input[type="text"]{
+		font-size: 40px;
+	}
+	.acceess-submit-btn{
+		padding-top: 30px;
+	}
+	.page-acceess-logo{
+		padding-bottom: 5%;
+	}
+}
+
+@media(max-height: 479px){
+	.page-acceess-logo img {
+	    max-width: 90px;
+	}
+	.born-date-form-body label, .acceess-form-fields input[type="text"]{
+		font-size: 29px;
+	}
+	.acceess-form-fields input[type="text"]{
+		border-width: 6px;
+	}
+	.acceess-submit-btn button {
+    width: 145px;
+    height: 50px;
+    font-size: 29px;
+    padding: 10px 0 10px;
+}
+	.page-acceess-con-inr{
+		padding-top: 0;
+	}
+}

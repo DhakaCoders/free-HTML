@@ -59,9 +59,16 @@
       }
     });*/
     $('.acceess-submit-btn button').on('click', function(){
-      var inputVal = $('.acceess-form-fields input').val();
-      var ;
-      $('.page-acceess-con-cntlr').hide();
+        var inputVal = $('.acceess-form-fields input').val();
+        if (inputVal != 0){
+          var yearTakeValue = $('.access-year').val();
+          if (yearTakeValue <= 2004){
+            $('.acceess-submit-btn button').on('click', function(){
+              $('.page-acceess-con-cntlr').fadeOut(300);
+            });
+          }
+        }
+      
     });
 
 
