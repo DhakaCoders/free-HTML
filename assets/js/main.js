@@ -37,23 +37,22 @@
     });
   };
     
-
-
-    
-
-    //$(".alert-txt").append( "<p>Ημερομηνια γεννησης</p>" );
-    $('.acceess-submit-btn button').on('click', function(){
-        var inputVal = $('.acceess-form-fields input').val();
-        if (inputVal != 0){
-          var yearTakeValue = $('.access-year').val();
-          if (yearTakeValue <= 2004){
-            $('.acceess-submit-btn button').on('click', function(){
-              $('.page-acceess-con-cntlr').fadeOut(300);
-            });
-          }
+  $('.acceess-submit-btn button').on('click', function(){
+      var date = $('.acceess-form-fields input[name=date]').val();
+      var month = $('.acceess-form-fields input[name=month]').val();
+      var year = $('.acceess-form-fields input[name=year]').val();
+      console.log(date.length);
+      if (date != 0 && month != 0 && year != 0){
+        if (year <= 2004){
+          $('.page-acceess-con-cntlr').fadeOut(300);
+        }else{
+          $('.alert-txt').html('Lorem Ipsum Dummy. Lorem Ipsum Dummy');
         }
-      
-    });
+      }else{
+        $('.alert-txt').html('Lorem Ipsum Dummy');
+      }
+    
+  });
 
 
 })(jQuery);

@@ -606,7 +606,7 @@
 }
 .acceess-submit-btn{
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 40px;
 }
 .acceess-submit-btn button{
 	width: 194px;
@@ -630,11 +630,13 @@
 	padding-right: 10px;
 }
 .born-date-form-body label,
-.acceess-form-fields input[type="text"]{
-	font-size: 56px;
+.acceess-form-fields input[type="text"],
+.acceess-form-fields input[type="number"]{
+	font-size: 48px;
 	line-height: 1;
 }
-.acceess-form-fields input[type="text"]{
+.acceess-form-fields input[type="text"],
+.acceess-form-fields input[type="number"]{
 	color: #fff;
 	width: 65px;
 	padding: 0 5px 0;
@@ -642,23 +644,28 @@
 	background: transparent;
 	text-align: center;
 }
-.acceess-form-fields span:last-child input[type="text"]{
+.acceess-form-fields span:last-child input[type="text"],
+.acceess-form-fields span:last-child input[type="number"]{
 	width: 80px;
 }
 
-.acceess-form-fields input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.acceess-form-fields input[type="text"]::-webkit-input-placeholder,
+.acceess-form-fields input[type="number"]::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
   color:#fff;
   opacity: 1;
 }
-.acceess-form-fields input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+.acceess-form-fields input[type="text"]::-moz-placeholder,
+.acceess-form-fields input[type="number"]::-moz-placeholder { /* Firefox 19+ */
   color:#fff;
   opacity: 1;
 }
-.acceess-form-fields input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+.acceess-form-fields input[type="text"]:-ms-input-placeholder,
+.acceess-form-fields input[type="number"]:-ms-input-placeholder { /* IE 10+ */
   color:#fff;
   opacity: 1;
 }
-.acceess-form-fields input[type="text"]:-moz-placeholder { /* Firefox 18- */
+.acceess-form-fields input[type="text"]:-moz-placeholder,
+.acceess-form-fields input[type="number"]:-moz-placeholder { /* Firefox 18- */
   color:#fff;
   opacity: 1;
 }
@@ -669,8 +676,19 @@
 	display: block;
 	color: #fff;
 	text-align: center;
+	padding-top: 20px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 @media(max-width: 1499px){
 	.pl-215 {
 	    padding-left: 115px;
@@ -777,7 +795,7 @@
 	.why-sec-grd {
 	    height: 250px;
 	}
-	.born-date-form-body label, .acceess-form-fields input[type="text"]{
+	.born-date-form-body label, .acceess-form-fields input[type="text"], .acceess-form-fields input[type="number"]{
 		font-size: 50px;
 	}
 
@@ -845,7 +863,7 @@
 	.why-sec-grd {
 	    height: 270px;
 	}
-	.born-date-form-body label, .acceess-form-fields input[type="text"]{
+	.born-date-form-body label, .acceess-form-fields input[type="text"], .acceess-form-fields input[type="number"]{
 		font-size: 45px;
 	}
 }
